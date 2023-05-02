@@ -59,7 +59,7 @@ A partir de então, o dado recebido é decodificado, transformado em inteiro, av
 ```python
 if numDigitos > 10:
     caracteres = string.ascii_lowercase + string.digits # Estabelece os caracteres
-																												# possíveis na string aleatória
+							# possíveis na string aleatória
     # criar string aleatória
     stringAleatoria = ''.join(random.choice(caracteres)
                       for _ in range(numDigitos))
